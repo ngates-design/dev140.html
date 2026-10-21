@@ -1,0 +1,15 @@
+p{
+    color: blue;
+}
+
+#title{
+    color: red;
+}
+
+h1{
+    color: rgb(129, 109, 207);
+}
+h2{
+    color: rgb(97, 9, 79);
+    boarder: 2px solid rgb(97, 9, 79);
+}

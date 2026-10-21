@@ -1,24 +1,39 @@
-p{
-    color: blue;
+/* 1. TYPE SELECTOR (Sets layout margins & background color) */
+body {
+    background-color: #6a1392; 
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 30px;                /* Box Model 1 */
+    padding: 10px;               /* Box Model 1 */
 }
 
-#title{
-    color: red;
-     /* BOX MODEL ELEMENT #2: Configures outline borders, container spaces, and margins */
-    border: 2px solid #16a085; /* Teal border line */
-    border-radius: 8px;        
-    padding: 25px;             /* Space inside the card lines */
-    margin: 20px auto;         /* Space outside the card lines to layout and center it */
+/* 2. ID SELECTOR (Styles your top main heading) */
+#main-title {
+    color: #1e3a8a; 
+    background-color: blanchedalmond;
+    text-align: center;
+    border-bottom: 5px solid #f97316; /* Box Model 2 */
+    padding-bottom: 12px;             /* Box Model 2 */
+    margin-top: 10px;                 /* Box Model 2 */
 }
 
+/* 3. CLASS SELECTOR (Wraps food and fun facts blocks cleanly) */
+.profile-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid blanchedalmond; /* Box Model 3 */
+    padding: 20px;                    /* Box Model 3 */
+    margin: 20px 0;                   /* Box Model 3 */
+    border-radius: 8px;
+}
 
-h1{
-    color: rgb(129, 109, 207);
+/* Supplemental tags to ensure clean reading layout */
+p {
+    line-height: 1.6;
 }
-h2{
-    color: rgb(97, 9, 79);
-    boarder: 2px solid rgb(97, 9, 79);
-}
-{
-    color: aqua;
+
+img {
+    display: block;
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
 }

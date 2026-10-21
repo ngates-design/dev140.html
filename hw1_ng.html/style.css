@@ -4,7 +4,13 @@ p{
 
 #title{
     color: red;
+     /* BOX MODEL ELEMENT #2: Configures outline borders, container spaces, and margins */
+    border: 2px solid #16a085; /* Teal border line */
+    border-radius: 8px;        
+    padding: 25px;             /* Space inside the card lines */
+    margin: 20px auto;         /* Space outside the card lines to layout and center it */
 }
+
 
 h1{
     color: rgb(129, 109, 207);
@@ -12,4 +18,7 @@ h1{
 h2{
     color: rgb(97, 9, 79);
     boarder: 2px solid rgb(97, 9, 79);
+}
+{
+    color: aqua;
 }

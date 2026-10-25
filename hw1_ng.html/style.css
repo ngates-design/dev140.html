@@ -1,4 +1,4 @@
-/* 1. TYPE SELECTOR (Sets layout margins & background color) */
+
 body {
     background-color: #6a1392; 
     color: #ffffff;
@@ -7,7 +7,6 @@ body {
     padding: 10px;               /* Box Model 1 */
 }
 
-/* 2. ID SELECTOR (Styles your top main heading) */
 #main-title {
     color: #1e3a8a; 
     background-color: blanchedalmond;
@@ -17,7 +16,7 @@ body {
     margin-top: 10px;                 /* Box Model 2 */
 }
 
-/* 3. CLASS SELECTOR (Wraps food and fun facts blocks cleanly) */
+
 .profile-card {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid blanchedalmond; /* Box Model 3 */
@@ -26,7 +25,7 @@ body {
     border-radius: 8px;
 }
 
-/* Supplemental tags to ensure clean reading layout */
+
 p {
     line-height: 1.6;
 }
